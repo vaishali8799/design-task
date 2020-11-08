@@ -1,0 +1,92 @@
+
+.left-box{
+    display: flex;
+      border: 1px solid #bbbfca;
+      background: #fff;
+      border-radius: 4px;
+      flex-direction: column;
+      padding: 15px;
+      width: 300px;
+      margin: 20px;
+  }
+  .head{
+    color: #bbbfca;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .language ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+  }
+  .price ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+  }
+  .price ul li{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+  
+  }
+  .session ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .session ul li{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    
+  }
+  .language ul li{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+  }
+  .checkbox{
+    padding: 10px;
+  }
+  .ratings{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+  }
+  .heading{
+    margin-left: 10px;
+  }
+  .search{
+    width:280px;
+    border:1px solid #bbbfca;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #fff;
+    display: flex;
+  }
+  .tags1{
+    background-color: rgb(63, 74, 224);
+    display: inline;
+    border-radius: 20px;
+    padding: 2px 8px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .tags2{
+    background-color:#81dd5c;
+    display: inline;
+    border-radius: 20px;
+    padding: 2px 8px;
+    color: #fff;
+    font-size: 14px;
+
+  }
+  .searchI{
+    color: rgb(17, 165, 84);
+    margin-right: 30px;
+  }

@@ -1,0 +1,93 @@
+.card-container{
+    display: flex;
+    border: 1px solid #bbbfca;
+    background: #fff;
+    border-radius: 4px;
+    width: 800px;
+    padding: 15px 20px;
+    margin: 20px;
+}
+.img-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.img-box>div{
+    padding: 5px;
+
+}
+.button-holder{
+    margin-left: 220px;
+}
+
+.detail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    
+    
+}
+.sub-title{
+    display: flex;
+    padding: 10px 20px;
+    
+    
+    
+}
+.sub{
+    color: #afb7d1;
+    margin-right: 20px;
+}
+.descr{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 16px;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+button{
+    border: 0;
+
+}
+.heart{
+    background: transparent;
+    padding: 4px;
+    margin-right: 20px;
+
+}
+.heart i{
+    color: #FF7F50;
+    font-size: 25px;
+}
+.veiw{
+    color: #fff;
+    background: #FF7F50;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    
+
+}
+.cat-box{
+    background-color:#f7f7f7;
+    color:#bbbfca; 
+    margin: 3px;
+    font-weight: 500;
+    padding: 4px 25px;
+    text-align: center;
+    border-radius: 20px;
+}
