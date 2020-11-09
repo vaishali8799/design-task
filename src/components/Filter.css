@@ -76,6 +76,7 @@
     padding: 2px 8px;
     color: #fff;
     font-size: 14px;
+    margin: 2px;
   }
   .tags2{
     background-color:#81dd5c;
@@ -84,9 +85,21 @@
     padding: 2px 8px;
     color: #fff;
     font-size: 14px;
+    margin-top: 2px;
 
   }
   .searchI{
     color: rgb(17, 165, 84);
-    margin-right: 30px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .searchI2{
+    color: rgb(17, 165, 84);
+    font-size: 25px;
+    margin-left: 160px;
+
+  }
+  .tag-box{
+    margin-bottom: 20px;
+
   }

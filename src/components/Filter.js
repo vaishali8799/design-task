@@ -7,12 +7,13 @@ const Filter = () => {
     const session=['30 min','60 min','15min']
     return (
         <div className="left-box">
-          <div><div className="head heading">EXPERTISE</div>
-              <div className="search"><div className="tags1">Branding X</div><div><i class="fa fa-search searchI" aria-hidden="true"></i></div></div>
+          <div className="tag-box"><div className="head heading">EXPERTISE</div>
+              <div className="search"><div className="tags1">Branding X</div><div className="searchI2"><i class="fa fa-search " aria-hidden="true"></i></div></div>
               <div className="tags2">Strategy X</div>
           </div>
-          <div><div className="head heading">FOCUS AREA</div>
+          <div className="tag-box"><div className="head heading">FOCUS AREA</div>
           <div className="search"><div className="tags1">Focus Area X</div><div className="tags1">Focus Area X</div><div className="searchI"><i class="fa fa-search " aria-hidden="true"></i></div></div>
+          <div className="tags2">Focus Area X</div><div className="tags1">Focus Area X</div>
           </div>
           <div><div className="head heading">RATINGS</div>
           <div className="ratings">

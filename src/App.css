@@ -9,10 +9,10 @@ body{
 .app{
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
 }
-.left{
   
-}
+
 h5{
   font-size: 22px;
   font-weight: 900;
@@ -37,5 +37,11 @@ h5{
   display: flex;
   justify-content:flex-start;
 }
+@media (max-width:990px){
+  .app{
+    flex-direction: column;
+  }
+}
+
 
 
